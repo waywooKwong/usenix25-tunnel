@@ -7,10 +7,10 @@ import random
 import ipaddress
 
 # === 用户配置 ===
-SCANNER_IP = "221.238.245.54"  # 替换为你的公网 IP
-INTERFACE = "WLAN"  # 替换为你的网卡
+SCANNER_IP = "192.168.234.241"  # 替换为你的公网 IP
+INTERFACE = "eth0"  # 替换为你的网卡
 DELAY_BETWEEN_PROBES = 0.01
-TARGET_FILE = "top1000.txt"
+TARGET_FILE = "targets.txt"
 RESULT_FILE = "results.csv"
 SPOOF_PREFIX = "100.200"  # Spoofing 扫描使用的伪造地址前缀
 # =================
