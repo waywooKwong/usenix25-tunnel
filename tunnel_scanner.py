@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from scapy.all import *
 import time
 import threading
@@ -107,7 +108,7 @@ def scan_targets(scan_mode, tunnel_type):
 
 # === 结果记录 ===
 def write_results(scan_mode, tunnel_type):
-    with open(RESULT_FILE, "w", newline="") as f:
+    with open(RESULT_FILE, "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["IP", "Protocol", "Scan Mode"])
         for ip in sorted(detected_ips):

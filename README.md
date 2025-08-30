@@ -5,7 +5,15 @@ Reproduction of the paper: “Haunted by Legacy: Discovering and Exploiting Vuln
 
 1. zmap scan -> targets.txt
 
+```
+zmap -p 80 -B 10M -n 0.01% --output-file=targets.txt
+```
+
 2. run tunnel_scanner.py
+
+```
+sudo /home/weihua-wsl/miniconda/envs/tunnel/bin/python tunnel_scanner.py
+```
 
 ```
 -s / --scan-mode (扫描模式)
