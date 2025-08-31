@@ -1,5 +1,8 @@
 # usenix25-tunnel
-Reproduction of the paper: “Haunted by Legacy: Discovering and Exploiting Vulnerable Tunnelling Hosts”
+Paper: A Beitis, et al. "Haunted by Legacy: Discovering and Exploiting Vulnerable Tunnelling Hosts", USENIX 25.
+
+## Experiment
+![](src/readme/scan-summary.png)
 
 ## Usage
 
