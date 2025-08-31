@@ -28,6 +28,7 @@ sudo /home/weihua-wsl/miniconda/envs/tunnel/bin/python tunnel_scanner.py
 -t / --tunnel-type (隧道类型)
     ipip → IPv4-in-IPv4 (proto=4)
     gre → GRE 封装 (proto=47)
-    6in4 → IPv6-in-IPv4 (nh=41)
+    6in4 → IPv6-in-IPv4 (proto=41)
     4in6 → IPv4-in-IPv6 (proto=41)
 ```
+
